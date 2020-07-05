@@ -1,0 +1,16 @@
+title: Machine-Learning-with-phyton
+description: Uso de Phyton para aprender Data Science en la plataforma de Udemy
+template:
+  repo: machine-learning-with-phyton-template
+  name: machine-learning-with-phyton
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
